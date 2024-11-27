@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function-Input</title>
+    <link rel="stylesheet" href="../style.css" />
+    <!-- <link href="./output.css" rel="stylesheet"> -->
+  </head>
+  <body>
+    <div class="main">
+      <br />
+      <br />
+      <div id="nameContainer" class=""></div>
+      <br />
+      <br />
+      <div>
+      <label for="firstName">
+        firstName <input type="text" id="firstName" />
+      </label>
+      <br />
+      <br />
+      <label for="lastName">
+        lastName <input type="text" id="lastName" />
+      </label>
+    </div>
+      <br />
+
+      <button class="sub" onclick="myName()">Submit</button>
+      <!-- <button class="sub" onclick="clear()">Clear</button> -->
+
+      <br />
+
+      <br />
+      <br />
+      <div id="sumContainer"></div>
+      <br />
+      <br />
+      <label for="num1"> Value 1 <input type="text" id="num1" /> </label>
+      <br />
+      <br />
+      <label for="num2"> Value 2 <input type="text" id="num2" /> </label>
+
+      <br />
+<div class="button">
+      <button class="btn" onclick="sum()">+</button>
+      <button class="btn" onclick="minus()">-</button>
+      <button class="btn" onclick="multiply()">*</button>
+      <button class="btn" onclick="divide()">/</button>
+      <button class="btnd" onclick="del()">Del</button>
+
+    </div>
+    </div>
+    <!-- <script>
+    function myName() {
+        let firstName = document.getElementById("firstName").value;
+        let lastName = document.getElementById("lastName").value;
+        document.getElementById("nameContainer").innerText = firstName + " " + lastName;
+    }
+</script> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

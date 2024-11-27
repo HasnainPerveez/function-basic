@@ -1,0 +1,88 @@
+body{
+    background-color: #59a1b3;
+    justify-content:center;
+    align-items:center;
+}
+label{
+    color: black;
+    font-weight:bold;
+    font-size:16px;
+}
+input{
+    border-style:solid;
+    border-radius:3px
+}
+.sub{
+    border-color:black
+    border:1px;
+    border-radius:4px
+    font-weight:bold
+}
+.sub:hover{
+    background-color: gray;
+    color:white;
+    border-radius: 4px
+    cursor:pointer;
+}
+.main{
+    width:203px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    border-style:solid;
+
+}
+
+#nameContainer{
+    text-align: center;
+    font-weight:bold;
+    font-size:30px;
+    width: 200px;
+    height:70px;
+    border: 2px;
+    border-radius: 4px;
+    background-color:white;
+    color: green;
+    border-style: solid;
+    border-color: green
+}
+
+#sumContainer{
+    text-align: center;
+    width: 200px;
+    height:70px;
+    border: 2px;
+    border-radius: 4px;
+    background-color:white;
+    color: green;
+    font-size: 50px;
+    border-style: solid;
+    border-color: green
+}
+.button{
+    padding-top:10px;
+}
+.btn{
+    width:30px;
+    height: 30px;
+    margin: 4px;
+    border-radius: 4px;
+    text-align:center;
+}
+.btn:hover{
+    background-color: gray;
+    color:white;
+    border-radius: 4px;
+}
+.btnd{
+    width:40px;
+    height: 30px;
+    margin: 4px;
+    border-radius: 4px;
+    text-align:center;
+}
+.btnd:hover{
+    background-color: gray;
+    color:white;
+    border-radius: 4px;
+}
